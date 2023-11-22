@@ -11,7 +11,7 @@ describe('template spec', () => {
     cy.visit("https://front-cras.app.fslab.dev/usuarios/listar")
     cy.get(":nth-child(5) > .styles_button__dr0t2").click()
     cy.get("#nomeCadastrar").type("Fabiana");
-    cy.get("#emailCadastrar").type("Fabi@gmail.com");
+    cy.get("#emailCadastrar").type("Fabii@gmail.com");
     cy.get("#senhaCadastrar").type("Fabi1357@");
     cy.get('#unidadeCadastrar').select('CRAS - Vilhena')
     cy.get('#grupoCadastrar').select('Administrador')

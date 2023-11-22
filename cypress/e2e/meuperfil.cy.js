@@ -3,7 +3,7 @@ describe("Meu Perfil", () => {
     cy.visit("https://front-cras.app.fslab.dev")
 
     cy.get(`#email`).type("fdabi@gmail.com");
-    cy.get("#senha").type("Fabi1357@");
+    cy.get("#senha").type("Est3570@");
     cy.get(`.styles_button__dr0t2`).click();
   })
 
@@ -13,8 +13,8 @@ describe("Meu Perfil", () => {
     cy.get('.styles_buttonMenu__mmyUS > img').click();
     cy.get('.styles_button__dr0t2').click()
     
-    cy.get("#senha").type("Est3570@");
-    cy.get("#confirmarSenha").type("Est3570@")
+    cy.get("#senha").type("Fabi1357@");
+    cy.get("#confirmarSenha").type("Fabi1357@")
     cy.get('.styles_container__NSLBw > .styles_button__dr0t2').click()
     cy.contains("Senha alterada com sucesso")
   })
